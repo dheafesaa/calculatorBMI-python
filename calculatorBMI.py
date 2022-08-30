@@ -18,10 +18,10 @@ elif (indeks >= 25 and indeks < 38):
     status = 'kelebihan'
 elif (indeks >= 18.5 and indeks < 25):
     status = 'normal'
-else: 
+else:
     status = 'kurang'
 
 print('')
 print('-----------------------------------------------')
-print('Halo,',nama,'anda masuk dalam kategori', status)
+print('Halo,', nama, 'anda masuk dalam kategori', status)
 print('-----------------------------------------------')
